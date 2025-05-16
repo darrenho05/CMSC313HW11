@@ -4,9 +4,12 @@ May 15, 2025, 10:03 pm
 This program takes a given input of hexadecimals and converts and prints it as ascii characters. 
 It prints the ascii characters in sets of two with a space in between each pair. 
 
-I compiled and ran the program using the following commands/n
-nasm -f elf32 hextoascii.asm -o hextoascii.o/n
-ld -m elf_i386 hextoascii.o -o hextoascii/n
+I compiled and ran the program using the following commands
+
+nasm -f elf32 hextoascii.asm -o hextoascii.o
+
+ld -m elf_i386 hextoascii.o -o hextoascii
+
 ./hextoascii
 
 the output is:
